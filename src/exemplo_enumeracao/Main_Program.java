@@ -12,9 +12,9 @@ public class Main_Program {
 		
 		System.out.println(order);
 		
-		OrderStatus os1 = OrderStatus.DELIVERED;
+		OrderStatus os1 = OrderStatus.DELIVERED;// instanciado normalmente
 		
-		OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+		OrderStatus os2 = OrderStatus.valueOf("DELIVERED"); //instanciado como string convertida para Enum
 		
 		System.out.println(os1);
 		System.out.println(os2);
